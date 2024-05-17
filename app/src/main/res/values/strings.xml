@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BottomNavNew</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_favmusic">Fav Music</string>
+
+
+    <string name="home_text">Selamat Datang Di Aplikasi ini</string>
+    <string name="home_text2">Aplikasi ini berisi tentang apa aja yang aku suka</string>
+
+
+    <string name="db_text">Lihat Music Fav</string>
+    <string name="db_text1">Lihat Streamer Kesukaan</string>
+    <string name="db_text2">Aku sangat senang mendengarkan musik, apalagi ketika sedang melakukan sesuatu</string>
+    <string name="db_text3">Selain itu aku juga suka melihat streaming orang sambil mengerjakan sesuatu biar gak sepi</string>
+
+
+    <string name="profile_nim">L0122043</string>
+    <string name="profile_nama">Danang Aprianto</string>
+    <string name="profile_jurusan">INFORMATIKA / 2022</string>
+    <string name="profile_deskripsi">Tentang Saya</string>
+    <string name="profile_isi_deskripsi">Nama saya Danang Aprianto, nama panggilan saya Dapri. Saya berasal dari Gunungkidul, Saya suka Kucing</string>
+    <string name="instagram">Instagram</string>
+    <string name="share">Share</string>
+
+
+    <string name="nim">NIM</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="jurusan">Jurusan / Angkatan</string>
+
+
+    <string name="category_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.favmusic.FavmusicFragment">
+
+
+    <TextView
+        android:id="@+id/text_title_playlist"
+        android:layout_width="323dp"
+        android:layout_height="52dp"
+        android:text="@string/category_name"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+
+    <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="346dp"
+        android:layout_height="217dp"
+        android:src="@drawable/favplaylist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_title_playlist"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+
+
+    <Button
+        android:id="@+id/btnbackdashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to dasboard"
+        app:layout_constraintTop_toBottomOf="@id/imageHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnplaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kepoin playlist"
+        app:layout_constraintTop_toBottomOf="@id/btnbackdashboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
